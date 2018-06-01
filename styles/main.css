@@ -1,0 +1,865 @@
+/*.wrapper{
+    padding: 0 5%;
+    background-color: rgb(0,54,54);
+}*/
+
+.godown{
+height:50px;
+}
+
+header h1, header p{
+    padding-left: 25px;
+}
+
+
+header .jumbotron{
+    background-color:darkcyan;
+    color:white;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    margin-bottom:0;
+    padding:75px 0px;
+    background-image:url(https://3a56f5ab8ada737edf5d-af7d6c9b7da3321615800c97321b0362.ssl.cf2.rackcdn.com/staging3-image_MI_Cycling_BannerDesktop_1X.150129215744.jpg)
+}
+
+#headerJumbo h1{
+    font-size:66px;
+}
+
+#headerImage{
+    display:inline;
+    float:right;
+    width: 375px;;
+    height:auto;
+}
+
+#headerNav{
+    padding:0;
+    margin: 0 auto;
+    border-radius:0px;
+    position:fixed;
+    width:100%;
+    z-index:1000;
+    font-size:16px;
+    float:left;
+}
+
+.navbar-fixed-bottom{
+    z-index: 1000;
+    border-radius:0px;
+    font-size:16px;
+    float:left;
+    text-align: center;
+    margin:0 auto;
+}
+
+#headerNav li a, #bottomNav li a{
+    border-radius:5px;
+    transition:background-color 0.5s;
+}
+
+.dropdown-menu > li >a:hover{
+    background-color:darkcyan;
+    background-image:none;
+}
+
+#headerNav li a:hover, #bottomNav li a{
+    background-color:darkcyan;
+}
+
+#hamburger{
+    position:fixed;
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    z-index:1000;
+
+}
+
+#reuseForm select{
+    border-radius:5px;
+    background-color:white;
+    color:black;
+    width:100%;
+}
+
+.content image{
+    border-radius:5%;
+    display:inline;
+}
+
+#mainContent1, #usageStatistics,#signupNow,#leaderboardTitle, #accountInfo{
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+}
+
+#signupNow,#usageStatistics{
+    padding-left:0;
+    padding-right:20px;
+    margin-right:0;
+    margin-left:0;
+    background-color:darkcyan;
+    border-radius:5px;
+    text-shadow:5px 5px 5px 5px black;
+}
+#mainContent2{
+    background-color:darkcyan;
+}
+h2{
+    width:100%;
+    text-align: center;
+}
+
+.content{
+    background-color:white;  ;
+}
+
+#usageStatistics{
+    background-color:darkcyan;
+    color:white;
+    border-radius:5px;
+    text-align:center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+
+}
+
+footer{
+    width:100%;
+    text-align:center;
+    background-color:white;
+    border-radius:5px;
+}
+
+footer p{
+    padding-top:10px;
+    color:black;
+}
+
+.logo{
+    width:50%;
+    height:auto;
+    border-radius:5px;
+}
+
+footer img{
+    width:40px;
+    height:auto;
+    transition:background-color 0.5s;
+    border-radius:25%;
+}
+
+footer img:hover,#loginButton:hover, #signupButton:hover,#enterCommuteButton:hover,#modalCancel:hover,#modalSubmit:hover
+,#reuseSubmit:hover,#yes:hover,#deleteSaved:hover,#editUser:hover,#startGPS:hover,#endGPS:hover{
+    background-color: rgb(139,70,0);
+}
+#socialMedia{
+    float:right;
+}
+
+#loginButton, #signupButton,#enterCommuteButton,#modalCancel,#modalSubmit,#reuseSubmit,#yes,#deleteSaved,#editUser,#startGPS,#endGPS{
+    border-radius:5px;
+    border:5px black;
+    width:150px;
+    height:auto;
+    background-color:black;
+    color:white;
+    transition:background-color 0.5s;
+    font-size:18px;
+}
+
+#deleteTrip{
+    background-color:transparent;
+    border:none;
+    border-radius:5px;
+    color:darkcyan;
+    transition:background-color 1s;
+}
+#deleteTrip:hover{
+    background-color:orange;
+    border-radius:5px;
+}
+#copyright{
+    float:left;
+}
+
+#userRewards{
+    font-size: 12px;
+    background-color:darkcyan;
+    color:white;
+    border-radius:5px;
+}
+
+#mainContent1Pic{
+    display:inline;
+    float:left;
+    width:500px;
+    height:auto;
+    border-radius:25%;
+}
+
+#editAccountForm input[type="text"],#editAccountForm input[type="number"],#editAccountForm input[type="email"],#editAccountForm input[type="password"], #editPlaceEmployment{
+    width:100%;
+    transition:background-color 0.5s,color 0.5s,style 0.5s;
+
+}
+#editDOBDay,#editDOBMonth,#editDOBYear{
+    width:33%;
+    display:inline;
+    transition:background-color 0.5s,color 0.5s,style 0.5s;
+}
+
+#signupForm input[type="text"],#signupForm input[type="number"],#signupForm input[type="email"],#signupForm input[type="password"],
+#placeEmployment, #commuteEntryForm input[type="text"],#commuteEntryForm input[type="number"],#commuteEntryForm input[type="email"],#commuteEntryForm input[type="password"],
+#travelMethod,#commuteDescription,#startPoint,#endPoint{
+    width:90%;
+    transition:background-color 0.5s,color 0.5s,style 0.5s;
+
+}
+
+#signupDOBDay, #signupDOBMonth,#signupDOBYear, #dateCommuteDay, #dateCommuteYear, #dateCommute{
+    width:25%;
+    display:inline;
+    padding: 0px 5px;
+}
+
+.dateChange{
+    width:25%;
+    display:inline;
+    padding:0px 5px;
+}
+
+input[type="checkbox"]{
+    margin:0;
+    padding:0;
+box-shadow:none;
+}
+
+#signupForm, #commuteEntryForm,#editAccountForm{
+    background-color:darkcyan;
+    border-radius:5px;
+    padding:25px 0px;
+    color:black;
+    width:90%;
+    margin:auto;
+}
+#resetPasswordForm,#changePasswordForm{
+    border-radius:5px;
+    color:black;
+    width:40%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+#resetPasswordForm input, #changePasswordForm input{
+    width:100%;
+}
+
+#resetPasswordSubmit{
+
+}
+
+#commuteDescription{
+    border-radius:5px;
+    border-style:none;
+}
+.modal-header,.modal-footer{
+    background-color:darkcyan;
+    border-radius:5px;
+    color:white;
+    text-align:center;
+}
+
+
+.modal-body p{
+    font-size:16px;
+}
+#modalLogout,#confirmDeleteTrip,#confirmDelete{
+    text-align:center;
+}
+
+#modalConfirm{
+    color:black;
+}
+.modal-body{
+    text-align:center;
+}
+.contentPic{
+    border-radius:15px;
+    width:100%;
+    height:auto;
+}
+
+
+#personalBenefits, #communityBenefits{
+    text-align: center;
+}
+
+.errorBox{
+    border:red;
+    border-style: groove;
+}
+
+.errorText{
+    color:red;
+    display:inline;
+    text-shadow:white;
+}
+
+.goodText{
+    color:green;
+    display:inline;
+    text-shadow:white;
+}
+
+
+#bodyContent{
+    color:black;
+}
+
+
+
+.carousel-content {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    z-index: 20;
+    color: white;
+    text-shadow: 0 3px 5px black;
+    width:100%;
+    height:auto;
+
+}
+
+#cara1,#cara2,#cara3,#cara4,#cara5,#cara6{
+    height:400px;
+    width:100%;
+}
+
+.carousel-content h1{
+    font-size: 66px;
+}
+
+.carousel-content p{
+    font-size: 24px;
+}
+
+.carousel-inner{
+    width:100%;
+    max-height: 400px; !important;
+}
+
+.emphasizeCyan{
+    color:darkcyan;
+    font-style:italic;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: black;
+    color:white;
+}
+
+.navbar-nav > li > .dropdown-menu a{
+    color:inherit;
+    font-size:inherit;
+}
+
+#signupNow{
+    background-color:darkcyan;
+    border-radius:5px;
+    color:white;
+    text-shadow: 0 4px 6px black;
+}
+
+#smartCommuteLogo{
+    width:100px;
+    height:auto;
+    border-radius:100%;
+    padding:0;
+}
+
+#indexSignupButton{
+    display:inline;
+}
+
+input[type="text"][disabled],input[type="email"][disabled],input[type="password"][disabled],input[type="select"][disabled],input[type="number"][disabled],
+#signupDOBDay[disabled],#signupDOBMonth[disabled],#signupDOBYear[disabled],#placeEmployment[disabled],#editDOBDay[disabled],#editDOBMonth[disabled],#editDOBYear[disabled],
+#editPlaceEmployment[disabled],#editPlaceEmploymentOther[disabled]{
+    background-color:transparent;
+    color:white;
+    font-style:italic;
+    transition:background-color 0.5s,color 0.5s,style 0.5s;
+
+}
+
+#saveOptions{
+    float:left;
+    text-align:left;
+}
+
+#ourMission,#benefits,#smartCommuteWeek{
+    text-align:center;
+}
+.jumbotron{
+    margin-top:0;
+    margin-bottom:0;
+    text-align: center;
+}
+
+#requiredText{
+    padding-left:25px;
+    color:orange;
+}
+.emphasizeOrange{
+    color:orange;
+}
+
+#why{
+    text-align:center;
+    background-color:rgba(0,0,0,.5);
+    color:white;
+}
+#whyLink{
+    padding-left:15%;
+    transition:font-size 1s;
+    margin:0;
+}
+
+#whyLink:hover{
+    font-size:24px;
+    cursor:help;
+}
+
+#savedTrips,#accountTrips,#userInfo{
+    text-align:left;
+}
+#accountTrips tr:last-child{
+    animation:background-fade 7s;
+}
+
+@keyframes background-fade{
+    0%{
+        background:darkcyan;
+    }
+
+    100%{
+        background:none;
+    }
+}
+
+
+#managementTable, #managementTable th, #managementTable td, #managementTable tr{
+    color:black;
+    text-align:center;
+    background-color:white;
+    border-radius:5px;
+    transition:background-color 0.5s;
+    border:1px solid black;
+    padding:2px;
+}
+
+
+.list{
+    background-color:darkcyan;
+    color:white;
+    border-radius:5px;
+    font-size:18px;
+    list-style-position: inside;
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+#rewardTable,#leaderboards,#savedTrips{
+    width:100%;
+    margin: 0 auto;
+    text-align:center;
+    background-color:darkcyan;
+    color:white;
+    border-radius:5px;
+    font-size:18px;
+}
+#rewardTable th,#leaderboards th,#savedTrips th{
+    font-size:22px;
+    text-align:center;
+}
+
+tr{
+    transition:background-color 0.5s;
+}
+
+tr:hover{
+    background-color:darkorange;
+}
+
+#accountButtons{
+width:100%;
+}
+
+#aboutPage .jumbotron{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#googlemaps,#wheelway,#jansen{
+    border-radius:5%;
+    margin-top:25px;
+    width:100%;
+}
+
+#about1,#about2,#about3,#about4{
+    margin:0 auto;
+    padding:10px;
+}
+#about4 a{
+    color:darkorange;
+}
+
+#about1,#about3,#about5{
+    background-color:white;
+}
+#about2,#about4{
+    background-color:darkcyan;
+    color:white;
+}
+
+ #about2 h2, #about4 h2{
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    color:white;
+}
+
+#about1 h2, #about3 h2,#about5 h2{
+    background-color: rgba(0,80,80,.8);
+    border-radius: 5px;
+    color:white;
+}
+
+#reuseCommute{
+    border-radius:5px;
+
+}
+
+#map{
+width:100%;
+    height:300px;
+    margin:0 auto;
+}
+
+#mapholder{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+}
+
+#navLogo{
+    border-radius:100%;
+    border:3px solid darkcyan;
+    width:50px;
+    height:auto;
+    margin:0 auto;
+    padding:0;
+    transition:width 1s;
+}
+
+#navLogo:hover{
+    width:200px;
+}
+#navbarBrand{
+    margin:0 auto;
+    padding: 0;
+}
+
+#employerList{
+    width:100%;
+    height:200px;
+    padding:0;
+    margin:0;
+}
+
+.pageTitle{
+    text-align:center;
+}
+
+
+/*Smartphones (portrait and landscape) -----------*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    #loginButton, #signupButton,#enterCommuteButton,#modalCancel,#modalSubmit,#reuseSubmit,#yes{
+        border-radius:5px;
+        border:5px black;
+        width:150px;
+        height:auto;
+        background-color:black;
+        color:white;
+        font-size:24px;
+        padding:10px;
+        margin:10px;
+    }
+    .modal input{
+        width:100%;
+    }
+
+    #signupForm input[type="text"],#signupForm input[type="number"],#signupForm input[type="email"],#signupForm input[type="password"],
+    #placeEmployment, #commuteEntryForm input[type="text"],#commuteEntryForm input[type="number"],#commuteEntryForm input[type="email"],#commuteEntryForm input[type="password"],
+    #travelMethod,#commuteDescription,#startPoint,#endPoint,
+    #editAccountForm input[type="text"],#editAccountForm input[type="number"],#editAccountForm input[type="email"],#editAccountForm input[type="password"],#editPlaceEmployment,#editPlaceEmploymentOther{
+        width:100%;
+        height:33px;
+        transition:background-color 0.5s,color 0.5s,font-style 0.5s;
+
+    }
+
+    #signupDOBDay, #signupDOBMonth,#signupDOBYear, #dateCommuteDay, #dateCommuteYear, #dateCommute,#editDOBYear,#editDOBMonth,#editDOBDay{
+        width:100%;
+        padding: 0px 5px;
+        transition:background-color 0.5s,color 0.5s,font-style 0.5s;
+    }
+
+
+    #signupForm, #commuteEntryForm,#editAccountForm{
+        background-color:darkcyan;
+        border-radius:5px;
+        padding:25px 0px;
+        color:black;
+        width:100%;
+        margin:auto;
+    }
+    #resetPasswordForm,#changePasswordForm{
+        border-radius:5px;
+        color:black;
+        width:100%;
+        text-align:center;
+        margin: 0 auto;
+    }
+
+
+
+    #resetPasswordForm input, #changePasswordForm input{
+        width:100%;
+    }
+
+    #headerNav{
+        padding:0;
+        margin: 0 auto;
+        border-radius:0px;
+        position:fixed;
+        width:100%;
+        z-index:1000;
+        font-size:24px;
+        float:left;
+    }
+
+    /* Force table to not be like tables anymore */
+    #savedTrips table,
+    #savedTrips thead,
+    #savedTrips tbody,
+    #savedTrips th,
+    #savedTrips td,
+    #savedTrips tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #savedTrips thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #savedTrips tr { border: 1px solid #ccc; }
+
+    #savedTrips td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #savedTrips td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #savedTrips td:before { content: attr(data-title); }
+    
+    #savedTrips th{
+        display:none;
+    }
+    /* Force table to not be like tables anymore */
+    #accountTrips table,
+    #accountTrips thead,
+    #accountTrips tbody,
+    #accountTrips th,
+    #accountTrips td,
+    #accountTrips tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #accountTrips thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #accountTrips tr { border: 1px solid #ccc; }
+
+    #accountTrips td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #accountTrips td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+
+
+    /*
+    Label the data
+    */
+    #accountTrips td:before { content: attr(data-title); }
+
+    #accountTrips th{
+        display:none;
+    }
+
+    /* Force table to not be like tables anymore */
+    #userInfo table,
+    #userInfo thead,
+    #userInfo tbody,
+    #userInfo th,
+    #userInfo td,
+    #userInfo tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #userInfo thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #userInfo tr { border: 1px solid #ccc; }
+
+    #userInfo td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #userInfo td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #userInfo td:before { content: attr(data-title); }
+
+    #userInfo th{
+        display:none;
+    }
+
+    #leaderboards th{
+        font-weight:normal;
+        font-size:12px;
+    }
+
+    #leaderboards td{
+        font-size:10px;
+    }
+    .list{
+        background-color:darkcyan;
+        color:white;
+        border-radius:5px;
+        font-size:18px;
+        list-style-position: inside;
+        width:100%;
+        text-align:center;
+        margin: 0 auto;
+        padding:0;
+    }
+    #rules{
+        width: 100%;
+    }
+
+    .carousel-content {
+        position: absolute;
+        bottom: 15%;
+        left: 0%;
+        z-index: 20;
+        color: white;
+        text-shadow: 0 3px 5px black;
+        width:100%;
+        height:auto;
+
+    }
+
+    #cara1,#cara2,#cara3,#cara4,#cara5,#cara6{
+        height:200px;
+        width:100%;
+    }
+
+    .carousel-content h1{
+        font-size: 36px;
+    }
+
+    .carousel-content p{
+        font-size: 16px;
+    }
+
+    .carousel-inner{
+        width:100%;
+        max-height: 200px; !important;
+    }
+
+}
+
